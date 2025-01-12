@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="vcat",
-    version="0.1.1",
+    version="0.1.2",
     description="A CLI tool to generates human friendly visualizations for files.",
     long_description=long_description,
     long_description_content_type="text/markdown",

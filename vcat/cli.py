@@ -115,7 +115,7 @@ def generate_python_visualization_code(file_path, file_content, target_path, lar
     Logger.log("Messages sent to LLM:\n" + str(messages))
 
     completion = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o-mini",
         messages=messages
     )
 

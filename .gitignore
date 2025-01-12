@@ -1,0 +1,63 @@
+# Python bytecode
+*.py[cod]
+__pycache__/
+
+# Distribution / build folders
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python metadata
+*.manifest
+*.spec
+
+# PyInstaller
+#  Usually these files are written by PyInstaller:
+*.spec
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+
+# tox
+.tox/
+
+# coverage reports
+htmlcov/
+.coverage.*
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# If you store secret tokens/credentials in a local .env file
+.env
+
+# If you have your publish script but don't want to commit logs or tokens
+publish.log
+
